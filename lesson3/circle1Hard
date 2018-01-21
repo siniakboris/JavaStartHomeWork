@@ -1,5 +1,3 @@
-```
-
 package com.gmail.siniakboris;
 
 import java.util.Scanner;
@@ -23,5 +21,3 @@ public class Main {
 		}
 	}
 }
-
-```
