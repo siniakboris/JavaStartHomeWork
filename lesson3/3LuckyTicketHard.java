@@ -27,11 +27,16 @@ public class Main {
 				System.out.println("Повезло");
 
 			}
+			else {
+				System.out.println("НЕ повезло");
+			}
 		}
 
 		else if (summa2 > 9) {
 			if ((summa2 / 10) + (summa2 % 10) == summa1) {
 				System.out.println("Повезло");
+			} else {
+				System.out.println("НЕ повезло");
 			}
 		} else {
 			System.out.println("НЕ повезло");
