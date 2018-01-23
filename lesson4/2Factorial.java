@@ -14,7 +14,8 @@ public class Main {
 		if ((n >= 4) | (n <= 16)) {
 			for (int i = 2; n >= i; i = i + 1) {
 				r = r * i;
-			} System.out.println("Факториал числа " + n +" равен " + r);
+			} 
+			System.out.println("Факториал числа " + n +" равен " + r);
 
 		} else {
 			System.out.println("Ошибка, вы ввели неверное число.");
