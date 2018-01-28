@@ -14,7 +14,7 @@ public class Main {
 		int a = 1;
 
 		for (int i = 1; i < n * 2;) {
-			if (a <= i && i <= n * 2 - a) {
+			if (a <= i && i + a <= n * 2) {
 				System.out.print("#");
 				a = a + 1;
 			} else {
@@ -22,6 +22,8 @@ public class Main {
 				i = i + 1;
 				a = 1;
 			}
+
 		}
 	}
+
 }
