@@ -34,7 +34,7 @@ public class DrawRectangle {
 		int h = sc.nextInt();
 
 		/**
-		 * 
+		 * Use method drawRectangle
 		 */
 
 		drawRectangle(h, w);
