@@ -21,6 +21,7 @@ public class MyArraysToString {
 		}
 		
 		sb.append(" }");
+		
 		return sb.toString();
 	}
 
