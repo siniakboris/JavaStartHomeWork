@@ -22,7 +22,7 @@ public class BinariToNumber {
 
 	public static void main(String[] args) {
 
-		System.out.println("Введите, двоичное число");
+		System.out.println("Введите двоичное число");
 		Scanner sct = new Scanner(System.in);
 		String text = sct.nextLine();
 		char[] t = text.toCharArray();
