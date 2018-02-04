@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class BinariToNumber {
 
-	public static int ResultBinar(char[] textArrays) {
+	public static int resultBinar(char[] textArrays) {
 		int a = 0;
 
 		for (int i = 0; i < textArrays.length; i++) {
@@ -28,7 +28,7 @@ public class BinariToNumber {
 		char[] t = text.toCharArray();
 
 		if (ResultBinar(t) != 0) {
-			System.out.println(ResultBinar(t));
+			System.out.println(resultBinar(t));
 		} else {
 			System.out.println("Простите, вы ввели не двоичное число");
 		}
