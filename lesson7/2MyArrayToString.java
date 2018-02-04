@@ -2,7 +2,7 @@ package com.gmail.siniakboris;
 
 public class MyArraysToString {
 
-	public static String MyArrToString(int[] arrays) {
+	public static String myArrToString(int[] arrays) {
 
 		StringBuilder sb = new StringBuilder();
 		
@@ -27,6 +27,6 @@ public class MyArraysToString {
 
 	public static void main(String[] args) {
 		int[] a = { 0, 2, 2, 3, 3, 4, 4, 5, 5 };
-		System.out.println(MyArrToString(a));
+		System.out.println(myArrToString(a));
 	}
 }
